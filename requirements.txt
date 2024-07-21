@@ -1,0 +1,6 @@
+opencv-python
+pygetwindow
+mss
+pyAutoGui
+numpy
+keyboard
