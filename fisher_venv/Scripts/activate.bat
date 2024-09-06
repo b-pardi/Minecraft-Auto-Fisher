@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Brandon\Documents\00 Programs 00\Minecraft-Auto-Fisher\fisher_venv
+set VIRTUAL_ENV=C:\Users\brand\Documents\00 Projects\Minecraft-Auto-Fisher\fisher_venv
 
 if not defined PROMPT set PROMPT=$P$G
 

@@ -24,11 +24,18 @@ def capture_window_frame(window_handler):
         width = right - left
         height = bottom - top
 
+        roi_scalar = 0.2 
+
+        roi_width = int(width * roi_scalar)
+        roi_height = int(height * roi_scalar)
+        roi_left = left + (width - roi_width) // 2
+        roi_top = top + (height - roi_height) // 2
+
         roi = {
-            'top': top + (height // 3),
-            'left': left + (width // 3),
-            'width': width // 3,
-            'height': height // 3
+            'top': roi_top,
+            'left': roi_left,
+            'width': roi_width,
+            'height': roi_height
         }
 
         img = sct.grab(roi)

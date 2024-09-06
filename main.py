@@ -26,10 +26,10 @@ def main():
         img_scaled = cv2.resize(img, (0,0), fx=scale, fy=scale)
         bobber_templates.append(img_scaled)
 
-    thresh = 0.545 # matching threshold
+    thresh = 0.4 # matching threshold
     bobber_last_seen = time.time()
     last_cast_time = time.time()
-    bobber_missing_duration = 0.18  # time threshold to detect bobber missing
+    bobber_missing_duration = 0.2  # time threshold to detect bobber missing
     fishing_rod_cast_time = 1  # time after which to cast the fishing rod back
     recast_delay = 4 # give a few seconds for object detection to find the bobber again
                     

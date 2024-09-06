@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Brandon\Documents\00 Programs 00\Minecraft-Auto-Fisher\fisher_venv"
+VIRTUAL_ENV="C:\Users\brand\Documents\00 Projects\Minecraft-Auto-Fisher\fisher_venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
